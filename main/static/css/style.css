@@ -1,0 +1,233 @@
+html body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.parallax {
+    background-image: url("../img/main.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.middle {
+    color: white;
+    width: 50%;
+    height: 30%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: #0b1216;
+    font-family: Arial;
+    position: absolute;
+    border-radius: 5px;
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#once {
+    text-align: center;
+    display: block;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+.card {
+    position: relative;
+    float: right;
+    width: 40%;
+    height: 40%;
+    margin: 2%;
+    padding: 3%;
+    box-shadow: 0px 2px 5px 1px #0b1216;
+}
+
+.card > h1 {
+    text-align: center;
+}
+
+.projects {
+    margin-bottom: 10%;
+}
+
+.btn {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.btn > a {
+    color: black;
+    font-size: 150%;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    size: 200%;
+}
+
+.indepth {
+    margin-top: 500px;
+}
+
+.indepth > h1{
+    background-color: #0b1216;
+    margin: 3%;
+    padding: 5%;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 200%;
+    font-family: Arial;
+}
+
+.math {
+    background-image: url("../img/crhomaic-abstraction-1184273.jpg");
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 200%;
+    font-family: Arial;
+}
+
+.math > p {
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    width: 140vh;
+}
+
+.math > h3 {
+    padding: 5%;
+}
+
+.robotics {
+    background-image: url("../img/digital-dreams-1155366-1920x1440.jpg");
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 200%;
+    font-family: Arial;
+}
+
+.robotics > p {
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    width: 140vh;
+}
+
+.robotics > h3 {
+    padding: 5%;
+}
+
+.contact {
+    background-color: #c25252;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px 0px #0b1216;
+    padding: 2%;
+    margin: 10% 5% 10% 5%;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact > a {
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    padding: 4px 6px;
+    background-color: #963f3f;
+    transition: 0.1s;
+}
+
+.contact > a:hover {
+    padding: 1% 3%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    padding: 5px;
+    color: white;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;  
+}
+
+.footer {
+    color: white;
+    font-size: 150%;
+    font-family: Arial;
+    padding: 3%;
+    margin-top: 5%;
+    background-color: #2a3136
+}
+
+.footer > h3 {
+    text-decoration: none;
+}
+.cont {
+    position: relative;
+    top: 5%;
+}
+
+.send {
+    font-size: 100%;
+}

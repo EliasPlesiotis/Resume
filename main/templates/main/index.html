@@ -1,0 +1,43 @@
+{% extends 'blocks/base.html' %}
+
+{% block 'body' %}
+<div class="parallax">
+</div>
+<div class="middle">
+        <p id="once">Elias Plesiotis</p>
+        <a id="once">Web Development, Web Scrapping, Server Side Software, Machine Learning</a>
+    </div>
+<div class="projects">
+    <div class="card">
+        <div class="image">
+            <h1>ISS Tracker</h1>
+        </div>
+        <p>Simple webscrapping project</p>
+        <p>Tracking the location of the iss and the user.Then displays the information scrapped to a map. Easy to recreate program with all the source code being under 100 lines. Feel free to play with the code and inform me if you have any intresting ideas. All the project is build with python</p>
+        <a href="https://github.com/EliasPlesiotis/iss"><button class="btn">Read More</button></a>
+    </div>
+    <div class="card">
+        <div class="image">
+            <h1>Study Hub</h1>
+        </div>
+        <p>Make self learning easy</p>
+        <p>Study Hub is a web application written in golang(mainly) and python. The website is not public and I am not intrested making it. The hole project is to make a simple functional website without any database or framework(at least for the backend). The code is available on github feel free to point any bugs</p>
+        <a href="https://github.com/EliasPlesiotis/Study-Hub"><button class="btn">Read More</button></a>
+    </div>
+</div>
+<div class="indepth">
+    <h1>An indepth view of <b>Me</b></h1>
+    <div class="math">
+        <h3>Mathematician</h3>
+        <p>Studing at National and Kapodistrian University of Athens.With interest in applied mathematics, data analysis and machine learning.</p>
+    </div>
+    <div class="contact">
+        <h3>Most of my Projects can be found on Github</h3>
+        <a href="https://github.com/EliasPlesiotis">VISIT</a>
+    </div>
+    <div class="robotics">
+        <h3>Robotics Teacher/Freelancer</h3>
+        <p>Current ocupation is to teaching robotics, creating websites, server side software and webscrapping tools with python, golang, c++ and js.</p>
+    </div>
+</div>
+{% endblock %}
