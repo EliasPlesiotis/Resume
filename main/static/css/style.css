@@ -1,6 +1,7 @@
 html body {
     margin: 0%;
     padding: 0%;
+    scroll-behavior: smooth;
 }
 
 .parallax {
@@ -16,10 +17,10 @@ html body {
     color: white;
     width: 50%;
     height: 30%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
     border-radius: 10px;
     background-color: #0b1216;
     font-family: Arial;
@@ -29,12 +30,13 @@ html body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: auto;
 }
 
 #once {
     text-align: center;
     display: block;
-    font-size: 200%;
+    font-size: 180%;
     font-weight: bolder;
 }
 
@@ -104,9 +106,9 @@ html body {
 .math > p {
     position: relative;
     left: 50%;
-    top: 10%;
+    top: 15%;
     transform: translate(-50%, -50%);
-    width: 140vh;
+    width: 80%;
 }
 
 .math > h3 {
@@ -128,9 +130,9 @@ html body {
 .robotics > p {
     position: relative;
     left: 50%;
-    top: 10%;
+    top: 15%;
     transform: translate(-50%, -50%);
-    width: 140vh;
+    width: 80%;
 }
 
 .robotics > h3 {
@@ -166,7 +168,7 @@ html body {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     top: 0;
     left: 0;
     background-color: #111;
@@ -178,7 +180,7 @@ html body {
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 150%;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -209,6 +211,7 @@ html body {
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
     width: 100%;  
+    z-index: 1;
 }
 
 .footer {
