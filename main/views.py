@@ -1,6 +1,12 @@
 from django.shortcuts import render
-from django.core.mail import send_mail
+from .models import Job
 
 
 def home(reqeust):
-    return render(reqeust, 'main/index.html')
+    return render(reqeust, 'main/index.html', {'jobs': Job.objects.all()})
+
+def about(request):
+    return render(request, 'main/about.html')
+
+def contact(request):
+    return render(request, 'main/contact.html')

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/proj.css' %}?v=2">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+    <div class="title">Projects</div>
+    <div class="cards">
+        {% for p in projects %}
+            <div class="card">
+                <div class="img" style="background-image: url('static/img/{{ p.image }}')"></div>
+                <h1>{{ p.name }}</h1>
+                <p>{{ p.description }}</p>
+                <button><a href="{{ p.link }}"> Visit</a></button>
+                <button><a href="{{ p.code }}">View the Code</a></button>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="rect"></div>
+    </div>
+    
+</body>
+</html>
